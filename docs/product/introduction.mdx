@@ -32,6 +32,8 @@ Shipping an API used to mean stitching together a runtime, a CDN, a key store, a
 | Build key storage, hashing, rotation, revocation | Attached to your app or called via SDK |
 | Stand up Redis for rate limiting | `unkey.ratelimit.limit()` |
 | Wire up usage tracking and dashboards | Built-in analytics |
+| Spin up staging environments by hand | A preview environment for every branch |
+| Stitch together per-region rollouts | Pick regions, deploy once |
 
 <Note>
   Unkey never stores API keys in plain text. Keys are SHA-256 hashed before storage, so even if our database were compromised your keys stay safe.
