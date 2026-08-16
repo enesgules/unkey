@@ -646,7 +646,7 @@
             "group": "Endpoints",
             "openapi": {
               "directory": "api-reference",
-              "source": "https://spec.speakeasy.com/unkey/unkey/openapi-json-with-code-samples"
+              "source": "api-reference/openapi.yaml"
             }
           }
         ],
